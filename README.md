@@ -1,17 +1,27 @@
 # nfl-reciever-archetype
 Performing clustering on NFL wide receivers. Utilizing dimensionality reduction techinques such as PCA and UMAP and combining with unsupervised machine mearning techniques such as K-means clustering to allocate receivers to a certain "Archetype".
 
-GOAL:  Cluster NFL wide receivers by **per-play-level** usage: Average depth of target (ADOT), target share, YAC, catch rate, explosive play percentage (catches >= 20 yards), deep target rate (air yards >= 20), and first down rate
-- specifically did not want to include stats like targets, catches or touchdowns, to see if someone is playing at an All pro level (similar to Julio Jones 2016) but is not getting enough touches to be noticed by the NFL community
-- Minimum 70 targets in a year. (sample size was far too large)
+## GOAL:  Cluster NFL wide receivers by **per-play-level** usage
+- Variables used:
+- - Average depth of target (ADOT)
+  - target share
+  - YAC
+  - catch rate
+  - explosive play percentage (catches >= 20 yards)
+  - deep target rate (air yards >= 20)
+  - first down rate
+- Specifically did not want to include stats like targets, catches or touchdowns, to see if someone is playing at an All pro level (similar to Julio Jones 2016) but is not getting enough touches to be noticed by the NFL community
+- Minimum 70 targets for season to be included
+
+## Data Used:
+- nflfastR play by play data
 
 ## Tools Used
 - R (tidyverse, umap, ggplot2 (gganimate, ggrepel), uwot, factoextra, cluster)
-- nflfastR dataset
 - Euclidean distance for player similarity
 - Principle component analysis for dimensionality reduction
 
-# Machine Learning Angle
+## Machine Learning Angle
 - K-means nearest neighbor classification
 
 ## Key Insights
