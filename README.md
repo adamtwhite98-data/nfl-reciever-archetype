@@ -20,6 +20,8 @@ Performing clustering on NFL wide receivers. Utilizing dimensionality reduction 
 - R (tidyverse, umap, ggplot2 (gganimate, ggrepel), uwot, factoextra, cluster)
 - Euclidean distance for player similarity
 - Principle component analysis for dimensionality reduction
+- Data wrangling to get season level data from play by play data
+- Data visualization to view clusters, and scree plot (PCA)
 
 ## Machine Learning Angle
 - K-means nearest neighbor classification
