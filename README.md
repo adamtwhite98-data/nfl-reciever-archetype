@@ -101,3 +101,7 @@ As if these guys didn't get compared to each other enough.
 |Deep Target Rate     |     12.81     |     13.85      |
 |First Down Rate      |     45.81     |     46.15      |
 |Target Share         |     32.9      |     30.05      |
+
+## Next Steps
+- View NFL receiver archetypes by season, see if the output changes.
+- Combine into dashboard that goes over week by week WR, RB, QB, and Team visualizations.
